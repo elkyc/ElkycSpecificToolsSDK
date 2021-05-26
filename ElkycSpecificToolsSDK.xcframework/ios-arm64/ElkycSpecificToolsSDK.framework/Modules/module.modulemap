@@ -1,0 +1,11 @@
+framework module ElkycSpecificToolsSDK {
+  umbrella header "ElkycSpecificToolsSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module ElkycSpecificToolsSDK.Swift {
+    header "ElkycSpecificToolsSDK-Swift.h"
+    requires objc
+}

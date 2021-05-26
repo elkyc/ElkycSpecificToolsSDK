@@ -1,0 +1,71 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ElkycSpecificToolsSDK
+import ElkycCoreSDK
+@_exported import ElkycSpecificToolsSDK
+import Foundation
+import Swift
+import UIKit
+public protocol NibView {
+  var internalView: UIKit.UIView! { get }
+  func loadViewFromNib()
+}
+extension NibView where Self : UIKit.UIView {
+  public var internalView: UIKit.UIView! {
+    get
+  }
+  public func loadViewFromNib()
+}
+extension UIImage {
+  public func withColor(_ color: UIKit.UIColor) -> UIKit.UIImage
+}
+public class OTPStep : ElkycCoreSDK.ElkycStep {
+  final public let stepId: ElkycCoreSDK.ElkycStepId
+  public struct Response {
+    public let type: ElkycSpecificToolsSDK.OTPMode
+    public let value: Swift.String
+    public let code: Swift.String
+  }
+  public init(visibility: ElkycSpecificToolsSDK.OTPVisibility = .both)
+  public func start(from viewController: UIKit.UIViewController, completion: @escaping ((Swift.Result<ElkycSpecificToolsSDK.OTPStep.Response, Swift.Error>) -> Swift.Void))
+  public typealias Output = ElkycSpecificToolsSDK.OTPStep.Response
+  @objc deinit
+}
+public struct OTPDemo {
+  public static func otpDemoViewController(completion: @escaping ((Swift.Result<ElkycSpecificToolsSDK.OTPStep.Response, Swift.Error>) -> Swift.Void)) throws -> UIKit.UIViewController
+}
+public enum OTPMode {
+  case phone
+  case email
+  public static func == (a: ElkycSpecificToolsSDK.OTPMode, b: ElkycSpecificToolsSDK.OTPMode) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum OTPVisibility {
+  case phone
+  case email
+  case both
+  public static func == (a: ElkycSpecificToolsSDK.OTPVisibility, b: ElkycSpecificToolsSDK.OTPVisibility) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public class SignaturePad : ElkycCoreSDK.ElkycStep {
+  final public let stepId: ElkycCoreSDK.ElkycStepId
+  public init(config: ElkycSpecificToolsSDK.SignaturePad.Config = Config())
+  public func start(from viewController: UIKit.UIViewController, completion: @escaping ((Swift.Result<UIKit.UIImage, Swift.Error>) -> Swift.Void))
+  public typealias Output = UIKit.UIImage
+  @objc deinit
+}
+extension SignaturePad {
+  public struct Config {
+    public init()
+  }
+}
+extension ElkycSpecificToolsSDK.OTPMode : Swift.Equatable {}
+extension ElkycSpecificToolsSDK.OTPMode : Swift.Hashable {}
+extension ElkycSpecificToolsSDK.OTPVisibility : Swift.Equatable {}
+extension ElkycSpecificToolsSDK.OTPVisibility : Swift.Hashable {}
