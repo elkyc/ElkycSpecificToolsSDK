@@ -20,7 +20,7 @@ extension UIImage {
   public func withColor(_ color: UIKit.UIColor) -> UIKit.UIImage
 }
 public class OTPStep : ElkycCoreSDK.ElkycStep {
-  final public let stepId: ElkycCoreSDK.ElkycStepId
+  public var stepId: ElkycCoreSDK.ElkycStepId
   public struct Response {
     public let type: ElkycSpecificToolsSDK.OTPMode
     public let value: Swift.String
@@ -54,7 +54,7 @@ public enum OTPVisibility {
   }
 }
 public class SignaturePad : ElkycCoreSDK.ElkycStep {
-  final public let stepId: ElkycCoreSDK.ElkycStepId
+  public var stepId: ElkycCoreSDK.ElkycStepId
   public init(config: ElkycSpecificToolsSDK.SignaturePad.Config = Config())
   public func start(from viewController: UIKit.UIViewController, completion: @escaping ((Swift.Result<UIKit.UIImage, Swift.Error>) -> Swift.Void))
   public typealias Output = UIKit.UIImage
