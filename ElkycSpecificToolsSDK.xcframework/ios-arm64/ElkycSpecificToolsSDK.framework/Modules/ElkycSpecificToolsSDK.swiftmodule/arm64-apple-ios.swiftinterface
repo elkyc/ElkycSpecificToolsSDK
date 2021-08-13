@@ -34,6 +34,36 @@ public class OTPStep : ElkycCoreSDK.ElkycStep {
 public struct OTPDemo {
   public static func otpDemoViewController(completion: @escaping ((Swift.Result<ElkycSpecificToolsSDK.OTPStep.Response, Swift.Error>) -> Swift.Void)) throws -> UIKit.UIViewController
 }
+public class Diia : ElkycCoreSDK.ElkycStep {
+  public var stepId: ElkycCoreSDK.ElkycStepId
+  public init(config: ElkycSpecificToolsSDK.Diia.Config = Config())
+  public func start(from viewController: UIKit.UIViewController, completion: @escaping ((Swift.Result<UIKit.UIImage?, Swift.Error>) -> Swift.Void))
+  public typealias Output = Swift.Optional<UIKit.UIImage>
+  @objc deinit
+}
+extension Diia {
+  public struct Config {
+    public struct Intro {
+      public var title: Swift.String
+      public var description: Swift.String
+      public var mainBtnBackgroundColor: UIKit.UIColor
+      public var mainBtnTintColor: UIKit.UIColor
+      public var mainBtnTitle: Swift.String
+    }
+    public struct Result {
+      public var successTitle: Swift.String
+      public var failTitle: Swift.String
+      public var failDescription: Swift.String
+      public var mainBtnBackgroundColor: UIKit.UIColor
+      public var mainBtnTintColor: UIKit.UIColor
+      public var mainBtnTitleSuccess: Swift.String
+      public var mainBtnTitleFail: Swift.String
+    }
+    public var intro: ElkycSpecificToolsSDK.Diia.Config.Intro
+    public var result: ElkycSpecificToolsSDK.Diia.Config.Result
+    public init()
+  }
+}
 public enum OTPMode {
   case phone
   case email
