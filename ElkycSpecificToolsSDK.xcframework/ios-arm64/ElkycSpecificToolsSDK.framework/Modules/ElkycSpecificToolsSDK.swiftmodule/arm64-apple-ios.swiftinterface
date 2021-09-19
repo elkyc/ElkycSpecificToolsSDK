@@ -83,6 +83,19 @@ public enum OTPVisibility {
     get
   }
 }
+public class UIKitSelfieWithConfirm : ElkycCoreSDK.ElkycStep {
+  public var stepId: ElkycCoreSDK.ElkycStepId
+  public init()
+  public func start(from viewController: UIKit.UIViewController, completion: @escaping ((Swift.Result<ElkycSpecificToolsSDK.UIKitSelfieWithConfirm.StepResult, Swift.Error>) -> Swift.Void))
+  public typealias Output = ElkycSpecificToolsSDK.UIKitSelfieWithConfirm.StepResult
+  @objc deinit
+}
+extension UIKitSelfieWithConfirm {
+  public struct StepResult {
+    public let image: UIKit.UIImage
+    public let confirmResult: ElkycCoreSDK.DocumentConfirm.StepResult
+  }
+}
 public class SignaturePad : ElkycCoreSDK.ElkycStep {
   public var stepId: ElkycCoreSDK.ElkycStepId
   public init(config: ElkycSpecificToolsSDK.SignaturePad.Config = Config())
