@@ -152,3 +152,17 @@ struct Config {
 **Output:**
 
 As output, you will receive a UIImage contains photo from a user document.
+
+### UIKitSelfieWithConfirm
+Use this step if you want to take a person picture with a document and then confirm it.
+
+**Output:**
+
+```swift
+struct StepResult {
+    public let image: UIImage
+    public let confirmResult: DocumentConfirm.StepResult
+}
+```
+- image: UIImage - the main image
+- confirmResult: DocumentConfirm.StepResult - DocumentConfirm step result.
