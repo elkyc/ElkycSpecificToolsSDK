@@ -11,6 +11,7 @@ Library is focused on specific, addionational features, it is a part of [Elkyc](
 - [x] OTP Verification
 - [x] Signature Capturing
 - [x] Diia integration
+- [x] Capture selfie with document
 
 # Component Libraries
 ElkycSpecificToolsSDK does not have any components but it is dependent on [ElkycCoreSDK](https://github.com/elkyc/ElkycCoreSDK)
