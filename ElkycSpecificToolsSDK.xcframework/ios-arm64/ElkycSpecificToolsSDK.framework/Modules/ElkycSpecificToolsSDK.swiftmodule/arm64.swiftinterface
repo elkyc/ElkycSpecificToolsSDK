@@ -1,22 +1,23 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
+// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ElkycSpecificToolsSDK
 import ElkycCoreSDK
 @_exported import ElkycSpecificToolsSDK
 import Foundation
 import Swift
 import UIKit
+import _Concurrency
 public protocol NibView {
   var internalView: UIKit.UIView! { get }
   func loadViewFromNib()
 }
-extension NibView where Self : UIKit.UIView {
+extension ElkycSpecificToolsSDK.NibView where Self : UIKit.UIView {
   public var internalView: UIKit.UIView! {
     get
   }
   public func loadViewFromNib()
 }
-extension UIImage {
+extension UIKit.UIImage {
   public func withColor(_ color: UIKit.UIColor) -> UIKit.UIImage
 }
 public class OTPStep : ElkycCoreSDK.ElkycStep {
@@ -41,7 +42,7 @@ public class Diia : ElkycCoreSDK.ElkycStep {
   public typealias Output = Swift.Optional<UIKit.UIImage>
   @objc deinit
 }
-extension Diia {
+extension ElkycSpecificToolsSDK.Diia {
   public struct Config {
     public struct Intro {
       public var title: Swift.String
@@ -90,7 +91,7 @@ public class UIKitSelfieWithConfirm : ElkycCoreSDK.ElkycStep {
   public typealias Output = ElkycSpecificToolsSDK.UIKitSelfieWithConfirm.StepResult
   @objc deinit
 }
-extension UIKitSelfieWithConfirm {
+extension ElkycSpecificToolsSDK.UIKitSelfieWithConfirm {
   public struct StepResult {
     public let image: UIKit.UIImage
     public let confirmResult: ElkycCoreSDK.DocumentConfirm.StepResult
@@ -103,7 +104,7 @@ public class SignaturePad : ElkycCoreSDK.ElkycStep {
   public typealias Output = UIKit.UIImage
   @objc deinit
 }
-extension SignaturePad {
+extension ElkycSpecificToolsSDK.SignaturePad {
   public struct Config {
     public init()
   }
