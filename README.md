@@ -32,6 +32,19 @@ source 'git@github.com:elkyc/ElkycPodsRepo.git'
 
 pod 'ElkycSpecificToolsSDK'
 ```
+## Swift Package Manager
+
+The Swift Package Manager is a tool for automating the distribution of Swift code and is integrated into the swift compiler.
+
+Once you have your Swift package set up, adding ElkycSpecificToolsSDK as a dependency is as easy as adding it to the dependencies value of your Package.swift.
+
+```
+dependencies: [
+    .package(url: "https://github.com/elkyc/ElkycCoreSDK.git", .branch("main")),
+    .package(url: "https://github.com/elkyc/ElkycSpecificToolsSDK.git", .branch("main"))
+]
+```
+
 ## Manually
 
 If you prefer not to use any of the aforementioned dependency managers, you can integrate ElkycSpecificToolsSDK into your project manually.
