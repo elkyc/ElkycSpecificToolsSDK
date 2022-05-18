@@ -33,7 +33,7 @@ public class OTPStep : ElkycCoreSDK.ElkycStep {
   @objc deinit
 }
 public struct OTPDemo {
-  public static func otpDemoViewController(completion: @escaping ((Swift.Result<ElkycSpecificToolsSDK.OTPStep.Response, Swift.Error>) -> Swift.Void)) throws -> UIKit.UIViewController
+  public static func otpDemoViewController(sendService: ((ElkycCoreSDK.OtpType) -> ElkycCoreSDK.Promise<ElkycCoreSDK.NoReply>)?, completion: @escaping ((Swift.Result<ElkycSpecificToolsSDK.OTPStep.Response, Swift.Error>) -> Swift.Void)) throws -> UIKit.UIViewController
 }
 public class Diia : ElkycCoreSDK.ElkycStep {
   public var stepId: ElkycCoreSDK.ElkycStepId
