@@ -1,0 +1,3844 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ElkycSpecificToolsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NibView",
+        "printedName": "NibView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "internalView",
+            "printedName": "internalView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ElkycSpecificToolsSDK7NibViewP08internalF0So6UIViewCSgvp",
+            "mangledName": "$s21ElkycSpecificToolsSDK7NibViewP08internalF0So6UIViewCSgvp",
+            "moduleName": "ElkycSpecificToolsSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UIView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ElkycSpecificToolsSDK7NibViewP08internalF0So6UIViewCSgvg",
+                "mangledName": "$s21ElkycSpecificToolsSDK7NibViewP08internalF0So6UIViewCSgvg",
+                "moduleName": "ElkycSpecificToolsSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : ElkycSpecificToolsSDK.NibView>",
+                "sugared_genericSig": "<Self where Self : ElkycSpecificToolsSDK.NibView>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "loadViewFromNib",
+            "printedName": "loadViewFromNib()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21ElkycSpecificToolsSDK7NibViewP04loadf4FromE0yyF",
+            "mangledName": "$s21ElkycSpecificToolsSDK7NibViewP04loadf4FromE0yyF",
+            "moduleName": "ElkycSpecificToolsSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ElkycSpecificToolsSDK.NibView>",
+            "sugared_genericSig": "<Self where Self : ElkycSpecificToolsSDK.NibView>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "internalView",
+            "printedName": "internalView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ElkycSpecificToolsSDK7NibViewPAASo6UIViewCRbzrlE08internalF0AESgvp",
+            "mangledName": "$s21ElkycSpecificToolsSDK7NibViewPAASo6UIViewCRbzrlE08internalF0AESgvp",
+            "moduleName": "ElkycSpecificToolsSDK",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UIView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ElkycSpecificToolsSDK7NibViewPAASo6UIViewCRbzrlE08internalF0AESgvg",
+                "mangledName": "$s21ElkycSpecificToolsSDK7NibViewPAASo6UIViewCRbzrlE08internalF0AESgvg",
+                "moduleName": "ElkycSpecificToolsSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIView, τ_0_0 : ElkycSpecificToolsSDK.NibView>",
+                "sugared_genericSig": "<Self where Self : UIKit.UIView, Self : ElkycSpecificToolsSDK.NibView>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "loadViewFromNib",
+            "printedName": "loadViewFromNib()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21ElkycSpecificToolsSDK7NibViewPAASo6UIViewCRbzrlE04loadf4FromE0yyF",
+            "mangledName": "$s21ElkycSpecificToolsSDK7NibViewPAASo6UIViewCRbzrlE04loadf4FromE0yyF",
+            "moduleName": "ElkycSpecificToolsSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIView, τ_0_0 : ElkycSpecificToolsSDK.NibView>",
+            "sugared_genericSig": "<Self where Self : UIKit.UIView, Self : ElkycSpecificToolsSDK.NibView>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:21ElkycSpecificToolsSDK7NibViewP",
+        "mangledName": "$s21ElkycSpecificToolsSDK7NibViewP",
+        "moduleName": "ElkycSpecificToolsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ElkycSpecificToolsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ElkycSpecificToolsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ElkycCoreSDK",
+        "printedName": "ElkycCoreSDK",
+        "declKind": "Import",
+        "moduleName": "ElkycSpecificToolsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ElkycSpecificToolsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ElkycSpecificToolsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ElkycCoreSDK",
+        "printedName": "ElkycCoreSDK",
+        "declKind": "Import",
+        "moduleName": "ElkycSpecificToolsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ElkycSpecificToolsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ElkycCoreSDK",
+        "printedName": "ElkycCoreSDK",
+        "declKind": "Import",
+        "moduleName": "ElkycSpecificToolsSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OTPStep",
+        "printedName": "OTPStep",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "stepId",
+            "printedName": "stepId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ElkycStepId",
+                "printedName": "ElkycCoreSDK.ElkycStepId",
+                "usr": "s:12ElkycCoreSDK0A6StepIdV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ElkycSpecificToolsSDK7OTPStepC6stepId0a4CoreD00a4StepG0Vvp",
+            "mangledName": "$s21ElkycSpecificToolsSDK7OTPStepC6stepId0a4CoreD00a4StepG0Vvp",
+            "moduleName": "ElkycSpecificToolsSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ElkycStepId",
+                    "printedName": "ElkycCoreSDK.ElkycStepId",
+                    "usr": "s:12ElkycCoreSDK0A6StepIdV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ElkycSpecificToolsSDK7OTPStepC6stepId0a4CoreD00a4StepG0Vvg",
+                "mangledName": "$s21ElkycSpecificToolsSDK7OTPStepC6stepId0a4CoreD00a4StepG0Vvg",
+                "moduleName": "ElkycSpecificToolsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ElkycStepId",
+                    "printedName": "ElkycCoreSDK.ElkycStepId",
+                    "usr": "s:12ElkycCoreSDK0A6StepIdV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ElkycSpecificToolsSDK7OTPStepC6stepId0a4CoreD00a4StepG0Vvs",
+                "mangledName": "$s21ElkycSpecificToolsSDK7OTPStepC6stepId0a4CoreD00a4StepG0Vvs",
+                "moduleName": "ElkycSpecificToolsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ElkycSpecificToolsSDK7OTPStepC6stepId0a4CoreD00a4StepG0VvM",
+                "mangledName": "$s21ElkycSpecificToolsSDK7OTPStepC6stepId0a4CoreD00a4StepG0VvM",
+                "moduleName": "ElkycSpecificToolsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Response",
+            "printedName": "Response",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "type",
+                "printedName": "type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OTPMode",
+                    "printedName": "ElkycSpecificToolsSDK.OTPMode",
+                    "usr": "s:21ElkycSpecificToolsSDK7OTPModeO"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:21ElkycSpecificToolsSDK7OTPStepC8ResponseV4typeAA7OTPModeOvp",
+                "mangledName": "$s21ElkycSpecificToolsSDK7OTPStepC8ResponseV4typeAA7OTPModeOvp",
+                "moduleName": "ElkycSpecificToolsSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OTPMode",
+                        "printedName": "ElkycSpecificToolsSDK.OTPMode",
+                        "usr": "s:21ElkycSpecificToolsSDK7OTPModeO"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21ElkycSpecificToolsSDK7OTPStepC8ResponseV4typeAA7OTPModeOvg",
+                    "mangledName": "$s21ElkycSpecificToolsSDK7OTPStepC8ResponseV4typeAA7OTPModeOvg",
+                    "moduleName": "ElkycSpecificToolsSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "value",
+                "printedName": "value",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:21ElkycSpecificToolsSDK7OTPStepC8ResponseV5valueSSvp",
+                "mangledName": "$s21ElkycSpecificToolsSDK7OTPStepC8ResponseV5valueSSvp",
+                "moduleName": "ElkycSpecificToolsSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21ElkycSpecificToolsSDK7OTPStepC8ResponseV5valueSSvg",
+                    "mangledName": "$s21ElkycSpecificToolsSDK7OTPStepC8ResponseV5valueSSvg",
+                    "moduleName": "ElkycSpecificToolsSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "code",
+                "printedName": "code",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:21ElkycSpecificToolsSDK7OTPStepC8ResponseV4codeSSvp",
+                "mangledName": "$s21ElkycSpecificToolsSDK7OTPStepC8ResponseV4codeSSvp",
+                "moduleName": "ElkycSpecificToolsSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21ElkycSpecificToolsSDK7OTPStepC8ResponseV4codeSSvg",
+                    "mangledName": "$s21ElkycSpecificToolsSDK7OTPStepC8ResponseV4codeSSvg",
+                    "moduleName": "ElkycSpecificToolsSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:21ElkycSpecificToolsSDK7OTPStepC8ResponseV",
+            "mangledName": "$s21ElkycSpecificToolsSDK7OTPStepC8ResponseV",
+            "moduleName": "ElkycSpecificToolsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(visibility:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OTPStep",
+                "printedName": "ElkycSpecificToolsSDK.OTPStep",
+                "usr": "s:21ElkycSpecificToolsSDK7OTPStepC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OTPVisibility",
+                "printedName": "ElkycSpecificToolsSDK.OTPVisibility",
+                "hasDefaultArg": true,
+                "usr": "s:21ElkycSpecificToolsSDK13OTPVisibilityO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21ElkycSpecificToolsSDK7OTPStepC10visibilityAcA13OTPVisibilityO_tcfc",
+            "mangledName": "$s21ElkycSpecificToolsSDK7OTPStepC10visibilityAcA13OTPVisibilityO_tcfc",
+            "moduleName": "ElkycSpecificToolsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start(from:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<ElkycSpecificToolsSDK.OTPStep.Response, Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<ElkycSpecificToolsSDK.OTPStep.Response, Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Response",
+                        "printedName": "ElkycSpecificToolsSDK.OTPStep.Response",
+                        "usr": "s:21ElkycSpecificToolsSDK7OTPStepC8ResponseV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21ElkycSpecificToolsSDK7OTPStepC5start4from10completionySo16UIViewControllerC_ys6ResultOyAC8ResponseVs5Error_pGctF",
+            "mangledName": "$s21ElkycSpecificToolsSDK7OTPStepC5start4from10completionySo16UIViewControllerC_ys6ResultOyAC8ResponseVs5Error_pGctF",
+            "moduleName": "ElkycSpecificToolsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:21ElkycSpecificToolsSDK7OTPStepC",
+        "mangledName": "$s21ElkycSpecificToolsSDK7OTPStepC",
+        "moduleName": "ElkycSpecificToolsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ElkycStep",
+            "printedName": "ElkycStep",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Output",
+                "printedName": "Output",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Response",
+                    "printedName": "ElkycSpecificToolsSDK.OTPStep.Response",
+                    "usr": "s:21ElkycSpecificToolsSDK7OTPStepC8ResponseV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:12ElkycCoreSDK0A4StepP",
+            "mangledName": "$s12ElkycCoreSDK0A4StepP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ElkycSpecificToolsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ElkycCoreSDK",
+        "printedName": "ElkycCoreSDK",
+        "declKind": "Import",
+        "moduleName": "ElkycSpecificToolsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ElkycSpecificToolsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ElkycSpecificToolsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ElkycCoreSDK",
+        "printedName": "ElkycCoreSDK",
+        "declKind": "Import",
+        "moduleName": "ElkycSpecificToolsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ElkycSpecificToolsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ElkycSpecificToolsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ElkycSpecificToolsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ElkycCoreSDK",
+        "printedName": "ElkycCoreSDK",
+        "declKind": "Import",
+        "moduleName": "ElkycSpecificToolsSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OTPDemo",
+        "printedName": "OTPDemo",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "otpDemoViewController",
+            "printedName": "otpDemoViewController(sendService:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((ElkycCoreSDK.OtpType) -> ElkycCoreSDK.Promise<ElkycCoreSDK.NoReply>)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ElkycCoreSDK.OtpType) -> ElkycCoreSDK.Promise<ElkycCoreSDK.NoReply>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Promise",
+                        "printedName": "ElkycCoreSDK.Promise<ElkycCoreSDK.NoReply>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NoReply",
+                            "printedName": "ElkycCoreSDK.NoReply",
+                            "usr": "s:12ElkycCoreSDK7NoReplyV"
+                          }
+                        ],
+                        "usr": "s:12ElkycCoreSDK7PromiseC"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OtpType",
+                        "printedName": "ElkycCoreSDK.OtpType",
+                        "usr": "s:12ElkycCoreSDK7OtpTypeO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<ElkycSpecificToolsSDK.OTPStep.Response, Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<ElkycSpecificToolsSDK.OTPStep.Response, Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Response",
+                        "printedName": "ElkycSpecificToolsSDK.OTPStep.Response",
+                        "usr": "s:21ElkycSpecificToolsSDK7OTPStepC8ResponseV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21ElkycSpecificToolsSDK7OTPDemoV21otpDemoViewController11sendService10completionSo06UIViewI0C0a4CoreD07PromiseCyAI7NoReplyVGAI7OtpTypeOcSg_ys6ResultOyAA7OTPStepC8ResponseVs5Error_pGctKFZ",
+            "mangledName": "$s21ElkycSpecificToolsSDK7OTPDemoV21otpDemoViewController11sendService10completionSo06UIViewI0C0a4CoreD07PromiseCyAI7NoReplyVGAI7OtpTypeOcSg_ys6ResultOyAA7OTPStepC8ResponseVs5Error_pGctKFZ",
+            "moduleName": "ElkycSpecificToolsSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:21ElkycSpecificToolsSDK7OTPDemoV",
+        "mangledName": "$s21ElkycSpecificToolsSDK7OTPDemoV",
+        "moduleName": "ElkycSpecificToolsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ElkycSpecificToolsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ElkycCoreSDK",
+        "printedName": "ElkycCoreSDK",
+        "declKind": "Import",
+        "moduleName": "ElkycSpecificToolsSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Diia",
+        "printedName": "Diia",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "stepId",
+            "printedName": "stepId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ElkycStepId",
+                "printedName": "ElkycCoreSDK.ElkycStepId",
+                "usr": "s:12ElkycCoreSDK0A6StepIdV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ElkycSpecificToolsSDK4DiiaC6stepId0a4CoreD00a4StepG0Vvp",
+            "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6stepId0a4CoreD00a4StepG0Vvp",
+            "moduleName": "ElkycSpecificToolsSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ElkycStepId",
+                    "printedName": "ElkycCoreSDK.ElkycStepId",
+                    "usr": "s:12ElkycCoreSDK0A6StepIdV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ElkycSpecificToolsSDK4DiiaC6stepId0a4CoreD00a4StepG0Vvg",
+                "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6stepId0a4CoreD00a4StepG0Vvg",
+                "moduleName": "ElkycSpecificToolsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ElkycStepId",
+                    "printedName": "ElkycCoreSDK.ElkycStepId",
+                    "usr": "s:12ElkycCoreSDK0A6StepIdV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ElkycSpecificToolsSDK4DiiaC6stepId0a4CoreD00a4StepG0Vvs",
+                "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6stepId0a4CoreD00a4StepG0Vvs",
+                "moduleName": "ElkycSpecificToolsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ElkycSpecificToolsSDK4DiiaC6stepId0a4CoreD00a4StepG0VvM",
+                "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6stepId0a4CoreD00a4StepG0VvM",
+                "moduleName": "ElkycSpecificToolsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Diia",
+                "printedName": "ElkycSpecificToolsSDK.Diia",
+                "usr": "s:21ElkycSpecificToolsSDK4DiiaC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Config",
+                "printedName": "ElkycSpecificToolsSDK.Diia.Config",
+                "hasDefaultArg": true,
+                "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21ElkycSpecificToolsSDK4DiiaC6configA2C6ConfigV_tcfc",
+            "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6configA2C6ConfigV_tcfc",
+            "moduleName": "ElkycSpecificToolsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start(from:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<UIKit.UIImage?, Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<UIKit.UIImage?, Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "UIKit.UIImage?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIImage",
+                            "printedName": "UIKit.UIImage",
+                            "usr": "c:objc(cs)UIImage"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21ElkycSpecificToolsSDK4DiiaC5start4from10completionySo16UIViewControllerC_ys6ResultOySo7UIImageCSgs5Error_pGctF",
+            "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC5start4from10completionySo16UIViewControllerC_ys6ResultOySo7UIImageCSgs5Error_pGctF",
+            "moduleName": "ElkycSpecificToolsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Config",
+            "printedName": "Config",
+            "children": [
+              {
+                "kind": "TypeDecl",
+                "name": "Intro",
+                "printedName": "Intro",
+                "children": [
+                  {
+                    "kind": "Var",
+                    "name": "title",
+                    "printedName": "title",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV5IntroV5titleSSvp",
+                    "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV5IntroV5titleSSvp",
+                    "moduleName": "ElkycSpecificToolsSDK",
+                    "declAttributes": [
+                      "HasInitialValue",
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV5IntroV5titleSSvg",
+                        "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV5IntroV5titleSSvg",
+                        "moduleName": "ElkycSpecificToolsSDK",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Set",
+                        "printedName": "Set()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV5IntroV5titleSSvs",
+                        "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV5IntroV5titleSSvs",
+                        "moduleName": "ElkycSpecificToolsSDK",
+                        "implicit": true,
+                        "accessorKind": "set"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Modify",
+                        "printedName": "Modify()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV5IntroV5titleSSvM",
+                        "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV5IntroV5titleSSvM",
+                        "moduleName": "ElkycSpecificToolsSDK",
+                        "implicit": true,
+                        "accessorKind": "_modify"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "description",
+                    "printedName": "description",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV5IntroV11descriptionSSvp",
+                    "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV5IntroV11descriptionSSvp",
+                    "moduleName": "ElkycSpecificToolsSDK",
+                    "declAttributes": [
+                      "HasInitialValue",
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV5IntroV11descriptionSSvg",
+                        "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV5IntroV11descriptionSSvg",
+                        "moduleName": "ElkycSpecificToolsSDK",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Set",
+                        "printedName": "Set()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV5IntroV11descriptionSSvs",
+                        "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV5IntroV11descriptionSSvs",
+                        "moduleName": "ElkycSpecificToolsSDK",
+                        "implicit": true,
+                        "accessorKind": "set"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Modify",
+                        "printedName": "Modify()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV5IntroV11descriptionSSvM",
+                        "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV5IntroV11descriptionSSvM",
+                        "moduleName": "ElkycSpecificToolsSDK",
+                        "implicit": true,
+                        "accessorKind": "_modify"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "mainBtnBackgroundColor",
+                    "printedName": "mainBtnBackgroundColor",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV5IntroV22mainBtnBackgroundColorSo7UIColorCvp",
+                    "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV5IntroV22mainBtnBackgroundColorSo7UIColorCvp",
+                    "moduleName": "ElkycSpecificToolsSDK",
+                    "declAttributes": [
+                      "HasInitialValue",
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIColor",
+                            "printedName": "UIKit.UIColor",
+                            "usr": "c:objc(cs)UIColor"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV5IntroV22mainBtnBackgroundColorSo7UIColorCvg",
+                        "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV5IntroV22mainBtnBackgroundColorSo7UIColorCvg",
+                        "moduleName": "ElkycSpecificToolsSDK",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Set",
+                        "printedName": "Set()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIColor",
+                            "printedName": "UIKit.UIColor",
+                            "usr": "c:objc(cs)UIColor"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV5IntroV22mainBtnBackgroundColorSo7UIColorCvs",
+                        "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV5IntroV22mainBtnBackgroundColorSo7UIColorCvs",
+                        "moduleName": "ElkycSpecificToolsSDK",
+                        "implicit": true,
+                        "accessorKind": "set"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Modify",
+                        "printedName": "Modify()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV5IntroV22mainBtnBackgroundColorSo7UIColorCvM",
+                        "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV5IntroV22mainBtnBackgroundColorSo7UIColorCvM",
+                        "moduleName": "ElkycSpecificToolsSDK",
+                        "implicit": true,
+                        "accessorKind": "_modify"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "mainBtnTintColor",
+                    "printedName": "mainBtnTintColor",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV5IntroV16mainBtnTintColorSo7UIColorCvp",
+                    "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV5IntroV16mainBtnTintColorSo7UIColorCvp",
+                    "moduleName": "ElkycSpecificToolsSDK",
+                    "declAttributes": [
+                      "HasInitialValue",
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIColor",
+                            "printedName": "UIKit.UIColor",
+                            "usr": "c:objc(cs)UIColor"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV5IntroV16mainBtnTintColorSo7UIColorCvg",
+                        "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV5IntroV16mainBtnTintColorSo7UIColorCvg",
+                        "moduleName": "ElkycSpecificToolsSDK",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Set",
+                        "printedName": "Set()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIColor",
+                            "printedName": "UIKit.UIColor",
+                            "usr": "c:objc(cs)UIColor"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV5IntroV16mainBtnTintColorSo7UIColorCvs",
+                        "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV5IntroV16mainBtnTintColorSo7UIColorCvs",
+                        "moduleName": "ElkycSpecificToolsSDK",
+                        "implicit": true,
+                        "accessorKind": "set"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Modify",
+                        "printedName": "Modify()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV5IntroV16mainBtnTintColorSo7UIColorCvM",
+                        "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV5IntroV16mainBtnTintColorSo7UIColorCvM",
+                        "moduleName": "ElkycSpecificToolsSDK",
+                        "implicit": true,
+                        "accessorKind": "_modify"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "mainBtnTitle",
+                    "printedName": "mainBtnTitle",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV5IntroV12mainBtnTitleSSvp",
+                    "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV5IntroV12mainBtnTitleSSvp",
+                    "moduleName": "ElkycSpecificToolsSDK",
+                    "declAttributes": [
+                      "HasInitialValue",
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV5IntroV12mainBtnTitleSSvg",
+                        "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV5IntroV12mainBtnTitleSSvg",
+                        "moduleName": "ElkycSpecificToolsSDK",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Set",
+                        "printedName": "Set()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV5IntroV12mainBtnTitleSSvs",
+                        "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV5IntroV12mainBtnTitleSSvs",
+                        "moduleName": "ElkycSpecificToolsSDK",
+                        "implicit": true,
+                        "accessorKind": "set"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Modify",
+                        "printedName": "Modify()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV5IntroV12mainBtnTitleSSvM",
+                        "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV5IntroV12mainBtnTitleSSvM",
+                        "moduleName": "ElkycSpecificToolsSDK",
+                        "implicit": true,
+                        "accessorKind": "_modify"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Struct",
+                "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV5IntroV",
+                "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV5IntroV",
+                "moduleName": "ElkycSpecificToolsSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ]
+              },
+              {
+                "kind": "TypeDecl",
+                "name": "Result",
+                "printedName": "Result",
+                "children": [
+                  {
+                    "kind": "Var",
+                    "name": "successTitle",
+                    "printedName": "successTitle",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV12successTitleSSvp",
+                    "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV12successTitleSSvp",
+                    "moduleName": "ElkycSpecificToolsSDK",
+                    "declAttributes": [
+                      "HasInitialValue",
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV12successTitleSSvg",
+                        "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV12successTitleSSvg",
+                        "moduleName": "ElkycSpecificToolsSDK",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Set",
+                        "printedName": "Set()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV12successTitleSSvs",
+                        "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV12successTitleSSvs",
+                        "moduleName": "ElkycSpecificToolsSDK",
+                        "implicit": true,
+                        "accessorKind": "set"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Modify",
+                        "printedName": "Modify()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV12successTitleSSvM",
+                        "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV12successTitleSSvM",
+                        "moduleName": "ElkycSpecificToolsSDK",
+                        "implicit": true,
+                        "accessorKind": "_modify"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "failTitle",
+                    "printedName": "failTitle",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV9failTitleSSvp",
+                    "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV9failTitleSSvp",
+                    "moduleName": "ElkycSpecificToolsSDK",
+                    "declAttributes": [
+                      "HasInitialValue",
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV9failTitleSSvg",
+                        "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV9failTitleSSvg",
+                        "moduleName": "ElkycSpecificToolsSDK",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Set",
+                        "printedName": "Set()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV9failTitleSSvs",
+                        "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV9failTitleSSvs",
+                        "moduleName": "ElkycSpecificToolsSDK",
+                        "implicit": true,
+                        "accessorKind": "set"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Modify",
+                        "printedName": "Modify()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV9failTitleSSvM",
+                        "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV9failTitleSSvM",
+                        "moduleName": "ElkycSpecificToolsSDK",
+                        "implicit": true,
+                        "accessorKind": "_modify"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "failDescription",
+                    "printedName": "failDescription",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV15failDescriptionSSvp",
+                    "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV15failDescriptionSSvp",
+                    "moduleName": "ElkycSpecificToolsSDK",
+                    "declAttributes": [
+                      "HasInitialValue",
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV15failDescriptionSSvg",
+                        "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV15failDescriptionSSvg",
+                        "moduleName": "ElkycSpecificToolsSDK",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Set",
+                        "printedName": "Set()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV15failDescriptionSSvs",
+                        "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV15failDescriptionSSvs",
+                        "moduleName": "ElkycSpecificToolsSDK",
+                        "implicit": true,
+                        "accessorKind": "set"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Modify",
+                        "printedName": "Modify()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV15failDescriptionSSvM",
+                        "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV15failDescriptionSSvM",
+                        "moduleName": "ElkycSpecificToolsSDK",
+                        "implicit": true,
+                        "accessorKind": "_modify"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "mainBtnBackgroundColor",
+                    "printedName": "mainBtnBackgroundColor",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV22mainBtnBackgroundColorSo7UIColorCvp",
+                    "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV22mainBtnBackgroundColorSo7UIColorCvp",
+                    "moduleName": "ElkycSpecificToolsSDK",
+                    "declAttributes": [
+                      "HasInitialValue",
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIColor",
+                            "printedName": "UIKit.UIColor",
+                            "usr": "c:objc(cs)UIColor"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV22mainBtnBackgroundColorSo7UIColorCvg",
+                        "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV22mainBtnBackgroundColorSo7UIColorCvg",
+                        "moduleName": "ElkycSpecificToolsSDK",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Set",
+                        "printedName": "Set()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIColor",
+                            "printedName": "UIKit.UIColor",
+                            "usr": "c:objc(cs)UIColor"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV22mainBtnBackgroundColorSo7UIColorCvs",
+                        "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV22mainBtnBackgroundColorSo7UIColorCvs",
+                        "moduleName": "ElkycSpecificToolsSDK",
+                        "implicit": true,
+                        "accessorKind": "set"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Modify",
+                        "printedName": "Modify()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV22mainBtnBackgroundColorSo7UIColorCvM",
+                        "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV22mainBtnBackgroundColorSo7UIColorCvM",
+                        "moduleName": "ElkycSpecificToolsSDK",
+                        "implicit": true,
+                        "accessorKind": "_modify"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "mainBtnTintColor",
+                    "printedName": "mainBtnTintColor",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV16mainBtnTintColorSo7UIColorCvp",
+                    "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV16mainBtnTintColorSo7UIColorCvp",
+                    "moduleName": "ElkycSpecificToolsSDK",
+                    "declAttributes": [
+                      "HasInitialValue",
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIColor",
+                            "printedName": "UIKit.UIColor",
+                            "usr": "c:objc(cs)UIColor"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV16mainBtnTintColorSo7UIColorCvg",
+                        "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV16mainBtnTintColorSo7UIColorCvg",
+                        "moduleName": "ElkycSpecificToolsSDK",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Set",
+                        "printedName": "Set()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIColor",
+                            "printedName": "UIKit.UIColor",
+                            "usr": "c:objc(cs)UIColor"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV16mainBtnTintColorSo7UIColorCvs",
+                        "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV16mainBtnTintColorSo7UIColorCvs",
+                        "moduleName": "ElkycSpecificToolsSDK",
+                        "implicit": true,
+                        "accessorKind": "set"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Modify",
+                        "printedName": "Modify()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV16mainBtnTintColorSo7UIColorCvM",
+                        "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV16mainBtnTintColorSo7UIColorCvM",
+                        "moduleName": "ElkycSpecificToolsSDK",
+                        "implicit": true,
+                        "accessorKind": "_modify"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "mainBtnTitleSuccess",
+                    "printedName": "mainBtnTitleSuccess",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV19mainBtnTitleSuccessSSvp",
+                    "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV19mainBtnTitleSuccessSSvp",
+                    "moduleName": "ElkycSpecificToolsSDK",
+                    "declAttributes": [
+                      "HasInitialValue",
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV19mainBtnTitleSuccessSSvg",
+                        "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV19mainBtnTitleSuccessSSvg",
+                        "moduleName": "ElkycSpecificToolsSDK",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Set",
+                        "printedName": "Set()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV19mainBtnTitleSuccessSSvs",
+                        "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV19mainBtnTitleSuccessSSvs",
+                        "moduleName": "ElkycSpecificToolsSDK",
+                        "implicit": true,
+                        "accessorKind": "set"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Modify",
+                        "printedName": "Modify()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV19mainBtnTitleSuccessSSvM",
+                        "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV19mainBtnTitleSuccessSSvM",
+                        "moduleName": "ElkycSpecificToolsSDK",
+                        "implicit": true,
+                        "accessorKind": "_modify"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "mainBtnTitleFail",
+                    "printedName": "mainBtnTitleFail",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV16mainBtnTitleFailSSvp",
+                    "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV16mainBtnTitleFailSSvp",
+                    "moduleName": "ElkycSpecificToolsSDK",
+                    "declAttributes": [
+                      "HasInitialValue",
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV16mainBtnTitleFailSSvg",
+                        "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV16mainBtnTitleFailSSvg",
+                        "moduleName": "ElkycSpecificToolsSDK",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Set",
+                        "printedName": "Set()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV16mainBtnTitleFailSSvs",
+                        "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV16mainBtnTitleFailSSvs",
+                        "moduleName": "ElkycSpecificToolsSDK",
+                        "implicit": true,
+                        "accessorKind": "set"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Modify",
+                        "printedName": "Modify()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV16mainBtnTitleFailSSvM",
+                        "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV16mainBtnTitleFailSSvM",
+                        "moduleName": "ElkycSpecificToolsSDK",
+                        "implicit": true,
+                        "accessorKind": "_modify"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Struct",
+                "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV",
+                "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV",
+                "moduleName": "ElkycSpecificToolsSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "intro",
+                "printedName": "intro",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Intro",
+                    "printedName": "ElkycSpecificToolsSDK.Diia.Config.Intro",
+                    "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV5IntroV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV5introAE5IntroVvp",
+                "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV5introAE5IntroVvp",
+                "moduleName": "ElkycSpecificToolsSDK",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Intro",
+                        "printedName": "ElkycSpecificToolsSDK.Diia.Config.Intro",
+                        "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV5IntroV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV5introAE5IntroVvg",
+                    "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV5introAE5IntroVvg",
+                    "moduleName": "ElkycSpecificToolsSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Intro",
+                        "printedName": "ElkycSpecificToolsSDK.Diia.Config.Intro",
+                        "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV5IntroV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV5introAE5IntroVvs",
+                    "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV5introAE5IntroVvs",
+                    "moduleName": "ElkycSpecificToolsSDK",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV5introAE5IntroVvM",
+                    "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV5introAE5IntroVvM",
+                    "moduleName": "ElkycSpecificToolsSDK",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "result",
+                "printedName": "result",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "ElkycSpecificToolsSDK.Diia.Config.Result",
+                    "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV6resultAE6ResultVvp",
+                "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV6resultAE6ResultVvp",
+                "moduleName": "ElkycSpecificToolsSDK",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Result",
+                        "printedName": "ElkycSpecificToolsSDK.Diia.Config.Result",
+                        "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV6resultAE6ResultVvg",
+                    "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV6resultAE6ResultVvg",
+                    "moduleName": "ElkycSpecificToolsSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Result",
+                        "printedName": "ElkycSpecificToolsSDK.Diia.Config.Result",
+                        "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV6ResultV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV6resultAE6ResultVvs",
+                    "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV6resultAE6ResultVvs",
+                    "moduleName": "ElkycSpecificToolsSDK",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV6resultAE6ResultVvM",
+                    "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV6resultAE6ResultVvM",
+                    "moduleName": "ElkycSpecificToolsSDK",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Config",
+                    "printedName": "ElkycSpecificToolsSDK.Diia.Config",
+                    "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigVAEycfc",
+                "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigVAEycfc",
+                "moduleName": "ElkycSpecificToolsSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:21ElkycSpecificToolsSDK4DiiaC6ConfigV",
+            "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC6ConfigV",
+            "moduleName": "ElkycSpecificToolsSDK",
+            "isFromExtension": true
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:21ElkycSpecificToolsSDK4DiiaC",
+        "mangledName": "$s21ElkycSpecificToolsSDK4DiiaC",
+        "moduleName": "ElkycSpecificToolsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ElkycStep",
+            "printedName": "ElkycStep",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Output",
+                "printedName": "Output",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:12ElkycCoreSDK0A4StepP",
+            "mangledName": "$s12ElkycCoreSDK0A4StepP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ElkycSpecificToolsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ElkycCoreSDK",
+        "printedName": "ElkycCoreSDK",
+        "declKind": "Import",
+        "moduleName": "ElkycSpecificToolsSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OTPMode",
+        "printedName": "OTPMode",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "phone",
+            "printedName": "phone",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ElkycSpecificToolsSDK.OTPMode.Type) -> ElkycSpecificToolsSDK.OTPMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OTPMode",
+                    "printedName": "ElkycSpecificToolsSDK.OTPMode",
+                    "usr": "s:21ElkycSpecificToolsSDK7OTPModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ElkycSpecificToolsSDK.OTPMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OTPMode",
+                        "printedName": "ElkycSpecificToolsSDK.OTPMode",
+                        "usr": "s:21ElkycSpecificToolsSDK7OTPModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21ElkycSpecificToolsSDK7OTPModeO5phoneyA2CmF",
+            "mangledName": "$s21ElkycSpecificToolsSDK7OTPModeO5phoneyA2CmF",
+            "moduleName": "ElkycSpecificToolsSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "email",
+            "printedName": "email",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ElkycSpecificToolsSDK.OTPMode.Type) -> ElkycSpecificToolsSDK.OTPMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OTPMode",
+                    "printedName": "ElkycSpecificToolsSDK.OTPMode",
+                    "usr": "s:21ElkycSpecificToolsSDK7OTPModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ElkycSpecificToolsSDK.OTPMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OTPMode",
+                        "printedName": "ElkycSpecificToolsSDK.OTPMode",
+                        "usr": "s:21ElkycSpecificToolsSDK7OTPModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21ElkycSpecificToolsSDK7OTPModeO5emailyA2CmF",
+            "mangledName": "$s21ElkycSpecificToolsSDK7OTPModeO5emailyA2CmF",
+            "moduleName": "ElkycSpecificToolsSDK"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OTPMode",
+                "printedName": "ElkycSpecificToolsSDK.OTPMode",
+                "usr": "s:21ElkycSpecificToolsSDK7OTPModeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OTPMode",
+                "printedName": "ElkycSpecificToolsSDK.OTPMode",
+                "usr": "s:21ElkycSpecificToolsSDK7OTPModeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21ElkycSpecificToolsSDK7OTPModeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s21ElkycSpecificToolsSDK7OTPModeO2eeoiySbAC_ACtFZ",
+            "moduleName": "ElkycSpecificToolsSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ElkycSpecificToolsSDK7OTPModeO9hashValueSivp",
+            "mangledName": "$s21ElkycSpecificToolsSDK7OTPModeO9hashValueSivp",
+            "moduleName": "ElkycSpecificToolsSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ElkycSpecificToolsSDK7OTPModeO9hashValueSivg",
+                "mangledName": "$s21ElkycSpecificToolsSDK7OTPModeO9hashValueSivg",
+                "moduleName": "ElkycSpecificToolsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21ElkycSpecificToolsSDK7OTPModeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s21ElkycSpecificToolsSDK7OTPModeO4hash4intoys6HasherVz_tF",
+            "moduleName": "ElkycSpecificToolsSDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:21ElkycSpecificToolsSDK7OTPModeO",
+        "mangledName": "$s21ElkycSpecificToolsSDK7OTPModeO",
+        "moduleName": "ElkycSpecificToolsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OTPVisibility",
+        "printedName": "OTPVisibility",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "phone",
+            "printedName": "phone",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ElkycSpecificToolsSDK.OTPVisibility.Type) -> ElkycSpecificToolsSDK.OTPVisibility",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OTPVisibility",
+                    "printedName": "ElkycSpecificToolsSDK.OTPVisibility",
+                    "usr": "s:21ElkycSpecificToolsSDK13OTPVisibilityO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ElkycSpecificToolsSDK.OTPVisibility.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OTPVisibility",
+                        "printedName": "ElkycSpecificToolsSDK.OTPVisibility",
+                        "usr": "s:21ElkycSpecificToolsSDK13OTPVisibilityO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21ElkycSpecificToolsSDK13OTPVisibilityO5phoneyA2CmF",
+            "mangledName": "$s21ElkycSpecificToolsSDK13OTPVisibilityO5phoneyA2CmF",
+            "moduleName": "ElkycSpecificToolsSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "email",
+            "printedName": "email",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ElkycSpecificToolsSDK.OTPVisibility.Type) -> ElkycSpecificToolsSDK.OTPVisibility",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OTPVisibility",
+                    "printedName": "ElkycSpecificToolsSDK.OTPVisibility",
+                    "usr": "s:21ElkycSpecificToolsSDK13OTPVisibilityO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ElkycSpecificToolsSDK.OTPVisibility.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OTPVisibility",
+                        "printedName": "ElkycSpecificToolsSDK.OTPVisibility",
+                        "usr": "s:21ElkycSpecificToolsSDK13OTPVisibilityO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21ElkycSpecificToolsSDK13OTPVisibilityO5emailyA2CmF",
+            "mangledName": "$s21ElkycSpecificToolsSDK13OTPVisibilityO5emailyA2CmF",
+            "moduleName": "ElkycSpecificToolsSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "both",
+            "printedName": "both",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ElkycSpecificToolsSDK.OTPVisibility.Type) -> ElkycSpecificToolsSDK.OTPVisibility",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OTPVisibility",
+                    "printedName": "ElkycSpecificToolsSDK.OTPVisibility",
+                    "usr": "s:21ElkycSpecificToolsSDK13OTPVisibilityO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ElkycSpecificToolsSDK.OTPVisibility.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OTPVisibility",
+                        "printedName": "ElkycSpecificToolsSDK.OTPVisibility",
+                        "usr": "s:21ElkycSpecificToolsSDK13OTPVisibilityO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21ElkycSpecificToolsSDK13OTPVisibilityO4bothyA2CmF",
+            "mangledName": "$s21ElkycSpecificToolsSDK13OTPVisibilityO4bothyA2CmF",
+            "moduleName": "ElkycSpecificToolsSDK"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OTPVisibility",
+                "printedName": "ElkycSpecificToolsSDK.OTPVisibility",
+                "usr": "s:21ElkycSpecificToolsSDK13OTPVisibilityO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OTPVisibility",
+                "printedName": "ElkycSpecificToolsSDK.OTPVisibility",
+                "usr": "s:21ElkycSpecificToolsSDK13OTPVisibilityO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21ElkycSpecificToolsSDK13OTPVisibilityO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s21ElkycSpecificToolsSDK13OTPVisibilityO2eeoiySbAC_ACtFZ",
+            "moduleName": "ElkycSpecificToolsSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ElkycSpecificToolsSDK13OTPVisibilityO9hashValueSivp",
+            "mangledName": "$s21ElkycSpecificToolsSDK13OTPVisibilityO9hashValueSivp",
+            "moduleName": "ElkycSpecificToolsSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ElkycSpecificToolsSDK13OTPVisibilityO9hashValueSivg",
+                "mangledName": "$s21ElkycSpecificToolsSDK13OTPVisibilityO9hashValueSivg",
+                "moduleName": "ElkycSpecificToolsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21ElkycSpecificToolsSDK13OTPVisibilityO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s21ElkycSpecificToolsSDK13OTPVisibilityO4hash4intoys6HasherVz_tF",
+            "moduleName": "ElkycSpecificToolsSDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:21ElkycSpecificToolsSDK13OTPVisibilityO",
+        "mangledName": "$s21ElkycSpecificToolsSDK13OTPVisibilityO",
+        "moduleName": "ElkycSpecificToolsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ElkycSpecificToolsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ElkycCoreSDK",
+        "printedName": "ElkycCoreSDK",
+        "declKind": "Import",
+        "moduleName": "ElkycSpecificToolsSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIKitSelfieWithConfirm",
+        "printedName": "UIKitSelfieWithConfirm",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "stepId",
+            "printedName": "stepId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ElkycStepId",
+                "printedName": "ElkycCoreSDK.ElkycStepId",
+                "usr": "s:12ElkycCoreSDK0A6StepIdV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ElkycSpecificToolsSDK22UIKitSelfieWithConfirmC6stepId0a4CoreD00a4StepJ0Vvp",
+            "mangledName": "$s21ElkycSpecificToolsSDK22UIKitSelfieWithConfirmC6stepId0a4CoreD00a4StepJ0Vvp",
+            "moduleName": "ElkycSpecificToolsSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ElkycStepId",
+                    "printedName": "ElkycCoreSDK.ElkycStepId",
+                    "usr": "s:12ElkycCoreSDK0A6StepIdV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ElkycSpecificToolsSDK22UIKitSelfieWithConfirmC6stepId0a4CoreD00a4StepJ0Vvg",
+                "mangledName": "$s21ElkycSpecificToolsSDK22UIKitSelfieWithConfirmC6stepId0a4CoreD00a4StepJ0Vvg",
+                "moduleName": "ElkycSpecificToolsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ElkycStepId",
+                    "printedName": "ElkycCoreSDK.ElkycStepId",
+                    "usr": "s:12ElkycCoreSDK0A6StepIdV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ElkycSpecificToolsSDK22UIKitSelfieWithConfirmC6stepId0a4CoreD00a4StepJ0Vvs",
+                "mangledName": "$s21ElkycSpecificToolsSDK22UIKitSelfieWithConfirmC6stepId0a4CoreD00a4StepJ0Vvs",
+                "moduleName": "ElkycSpecificToolsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ElkycSpecificToolsSDK22UIKitSelfieWithConfirmC6stepId0a4CoreD00a4StepJ0VvM",
+                "mangledName": "$s21ElkycSpecificToolsSDK22UIKitSelfieWithConfirmC6stepId0a4CoreD00a4StepJ0VvM",
+                "moduleName": "ElkycSpecificToolsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIKitSelfieWithConfirm",
+                "printedName": "ElkycSpecificToolsSDK.UIKitSelfieWithConfirm",
+                "usr": "s:21ElkycSpecificToolsSDK22UIKitSelfieWithConfirmC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Config",
+                "printedName": "ElkycSpecificToolsSDK.UIKitSelfieWithConfirm.Config",
+                "hasDefaultArg": true,
+                "usr": "s:21ElkycSpecificToolsSDK22UIKitSelfieWithConfirmC6ConfigV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21ElkycSpecificToolsSDK22UIKitSelfieWithConfirmC6configA2C6ConfigV_tcfc",
+            "mangledName": "$s21ElkycSpecificToolsSDK22UIKitSelfieWithConfirmC6configA2C6ConfigV_tcfc",
+            "moduleName": "ElkycSpecificToolsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start(from:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<ElkycSpecificToolsSDK.UIKitSelfieWithConfirm.StepResult, Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<ElkycSpecificToolsSDK.UIKitSelfieWithConfirm.StepResult, Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StepResult",
+                        "printedName": "ElkycSpecificToolsSDK.UIKitSelfieWithConfirm.StepResult",
+                        "usr": "s:21ElkycSpecificToolsSDK22UIKitSelfieWithConfirmC10StepResultV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21ElkycSpecificToolsSDK22UIKitSelfieWithConfirmC5start4from10completionySo16UIViewControllerC_ys6ResultOyAC04StepN0Vs5Error_pGctF",
+            "mangledName": "$s21ElkycSpecificToolsSDK22UIKitSelfieWithConfirmC5start4from10completionySo16UIViewControllerC_ys6ResultOyAC04StepN0Vs5Error_pGctF",
+            "moduleName": "ElkycSpecificToolsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Config",
+            "printedName": "Config",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "documentConfirmConfig",
+                "printedName": "documentConfirmConfig",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Config",
+                    "printedName": "ElkycCoreSDK.DocumentConfirm.Config",
+                    "usr": "s:12ElkycCoreSDK15DocumentConfirmC6ConfigV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:21ElkycSpecificToolsSDK22UIKitSelfieWithConfirmC6ConfigV08documenthI00a4CoreD008DocumentH0CADVvp",
+                "mangledName": "$s21ElkycSpecificToolsSDK22UIKitSelfieWithConfirmC6ConfigV08documenthI00a4CoreD008DocumentH0CADVvp",
+                "moduleName": "ElkycSpecificToolsSDK",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Config",
+                        "printedName": "ElkycCoreSDK.DocumentConfirm.Config",
+                        "usr": "s:12ElkycCoreSDK15DocumentConfirmC6ConfigV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21ElkycSpecificToolsSDK22UIKitSelfieWithConfirmC6ConfigV08documenthI00a4CoreD008DocumentH0CADVvg",
+                    "mangledName": "$s21ElkycSpecificToolsSDK22UIKitSelfieWithConfirmC6ConfigV08documenthI00a4CoreD008DocumentH0CADVvg",
+                    "moduleName": "ElkycSpecificToolsSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Config",
+                        "printedName": "ElkycCoreSDK.DocumentConfirm.Config",
+                        "usr": "s:12ElkycCoreSDK15DocumentConfirmC6ConfigV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21ElkycSpecificToolsSDK22UIKitSelfieWithConfirmC6ConfigV08documenthI00a4CoreD008DocumentH0CADVvs",
+                    "mangledName": "$s21ElkycSpecificToolsSDK22UIKitSelfieWithConfirmC6ConfigV08documenthI00a4CoreD008DocumentH0CADVvs",
+                    "moduleName": "ElkycSpecificToolsSDK",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21ElkycSpecificToolsSDK22UIKitSelfieWithConfirmC6ConfigV08documenthI00a4CoreD008DocumentH0CADVvM",
+                    "mangledName": "$s21ElkycSpecificToolsSDK22UIKitSelfieWithConfirmC6ConfigV08documenthI00a4CoreD008DocumentH0CADVvM",
+                    "moduleName": "ElkycSpecificToolsSDK",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Config",
+                    "printedName": "ElkycSpecificToolsSDK.UIKitSelfieWithConfirm.Config",
+                    "usr": "s:21ElkycSpecificToolsSDK22UIKitSelfieWithConfirmC6ConfigV"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:21ElkycSpecificToolsSDK22UIKitSelfieWithConfirmC6ConfigVAEycfc",
+                "mangledName": "$s21ElkycSpecificToolsSDK22UIKitSelfieWithConfirmC6ConfigVAEycfc",
+                "moduleName": "ElkycSpecificToolsSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:21ElkycSpecificToolsSDK22UIKitSelfieWithConfirmC6ConfigV",
+            "mangledName": "$s21ElkycSpecificToolsSDK22UIKitSelfieWithConfirmC6ConfigV",
+            "moduleName": "ElkycSpecificToolsSDK",
+            "isFromExtension": true
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "StepResult",
+            "printedName": "StepResult",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "image",
+                "printedName": "image",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:21ElkycSpecificToolsSDK22UIKitSelfieWithConfirmC10StepResultV5imageSo7UIImageCvp",
+                "mangledName": "$s21ElkycSpecificToolsSDK22UIKitSelfieWithConfirmC10StepResultV5imageSo7UIImageCvp",
+                "moduleName": "ElkycSpecificToolsSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21ElkycSpecificToolsSDK22UIKitSelfieWithConfirmC10StepResultV5imageSo7UIImageCvg",
+                    "mangledName": "$s21ElkycSpecificToolsSDK22UIKitSelfieWithConfirmC10StepResultV5imageSo7UIImageCvg",
+                    "moduleName": "ElkycSpecificToolsSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "confirmResult",
+                "printedName": "confirmResult",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StepResult",
+                    "printedName": "ElkycCoreSDK.DocumentConfirm.StepResult",
+                    "usr": "s:12ElkycCoreSDK15DocumentConfirmC10StepResultO"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:21ElkycSpecificToolsSDK22UIKitSelfieWithConfirmC10StepResultV07confirmJ00a4CoreD008DocumentH0CADOvp",
+                "mangledName": "$s21ElkycSpecificToolsSDK22UIKitSelfieWithConfirmC10StepResultV07confirmJ00a4CoreD008DocumentH0CADOvp",
+                "moduleName": "ElkycSpecificToolsSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StepResult",
+                        "printedName": "ElkycCoreSDK.DocumentConfirm.StepResult",
+                        "usr": "s:12ElkycCoreSDK15DocumentConfirmC10StepResultO"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21ElkycSpecificToolsSDK22UIKitSelfieWithConfirmC10StepResultV07confirmJ00a4CoreD008DocumentH0CADOvg",
+                    "mangledName": "$s21ElkycSpecificToolsSDK22UIKitSelfieWithConfirmC10StepResultV07confirmJ00a4CoreD008DocumentH0CADOvg",
+                    "moduleName": "ElkycSpecificToolsSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:21ElkycSpecificToolsSDK22UIKitSelfieWithConfirmC10StepResultV",
+            "mangledName": "$s21ElkycSpecificToolsSDK22UIKitSelfieWithConfirmC10StepResultV",
+            "moduleName": "ElkycSpecificToolsSDK",
+            "isFromExtension": true
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:21ElkycSpecificToolsSDK22UIKitSelfieWithConfirmC",
+        "mangledName": "$s21ElkycSpecificToolsSDK22UIKitSelfieWithConfirmC",
+        "moduleName": "ElkycSpecificToolsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ElkycStep",
+            "printedName": "ElkycStep",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Output",
+                "printedName": "Output",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StepResult",
+                    "printedName": "ElkycSpecificToolsSDK.UIKitSelfieWithConfirm.StepResult",
+                    "usr": "s:21ElkycSpecificToolsSDK22UIKitSelfieWithConfirmC10StepResultV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:12ElkycCoreSDK0A4StepP",
+            "mangledName": "$s12ElkycCoreSDK0A4StepP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ElkycSpecificToolsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ElkycSpecificToolsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ElkycCoreSDK",
+        "printedName": "ElkycCoreSDK",
+        "declKind": "Import",
+        "moduleName": "ElkycSpecificToolsSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SignaturePad",
+        "printedName": "SignaturePad",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "stepId",
+            "printedName": "stepId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ElkycStepId",
+                "printedName": "ElkycCoreSDK.ElkycStepId",
+                "usr": "s:12ElkycCoreSDK0A6StepIdV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21ElkycSpecificToolsSDK12SignaturePadC6stepId0a4CoreD00a4StepH0Vvp",
+            "mangledName": "$s21ElkycSpecificToolsSDK12SignaturePadC6stepId0a4CoreD00a4StepH0Vvp",
+            "moduleName": "ElkycSpecificToolsSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ElkycStepId",
+                    "printedName": "ElkycCoreSDK.ElkycStepId",
+                    "usr": "s:12ElkycCoreSDK0A6StepIdV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ElkycSpecificToolsSDK12SignaturePadC6stepId0a4CoreD00a4StepH0Vvg",
+                "mangledName": "$s21ElkycSpecificToolsSDK12SignaturePadC6stepId0a4CoreD00a4StepH0Vvg",
+                "moduleName": "ElkycSpecificToolsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ElkycStepId",
+                    "printedName": "ElkycCoreSDK.ElkycStepId",
+                    "usr": "s:12ElkycCoreSDK0A6StepIdV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ElkycSpecificToolsSDK12SignaturePadC6stepId0a4CoreD00a4StepH0Vvs",
+                "mangledName": "$s21ElkycSpecificToolsSDK12SignaturePadC6stepId0a4CoreD00a4StepH0Vvs",
+                "moduleName": "ElkycSpecificToolsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21ElkycSpecificToolsSDK12SignaturePadC6stepId0a4CoreD00a4StepH0VvM",
+                "mangledName": "$s21ElkycSpecificToolsSDK12SignaturePadC6stepId0a4CoreD00a4StepH0VvM",
+                "moduleName": "ElkycSpecificToolsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SignaturePad",
+                "printedName": "ElkycSpecificToolsSDK.SignaturePad",
+                "usr": "s:21ElkycSpecificToolsSDK12SignaturePadC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Config",
+                "printedName": "ElkycSpecificToolsSDK.SignaturePad.Config",
+                "hasDefaultArg": true,
+                "usr": "s:21ElkycSpecificToolsSDK12SignaturePadC6ConfigV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21ElkycSpecificToolsSDK12SignaturePadC6configA2C6ConfigV_tcfc",
+            "mangledName": "$s21ElkycSpecificToolsSDK12SignaturePadC6configA2C6ConfigV_tcfc",
+            "moduleName": "ElkycSpecificToolsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start(from:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<UIKit.UIImage, Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<UIKit.UIImage, Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21ElkycSpecificToolsSDK12SignaturePadC5start4from10completionySo16UIViewControllerC_ys6ResultOySo7UIImageCs5Error_pGctF",
+            "mangledName": "$s21ElkycSpecificToolsSDK12SignaturePadC5start4from10completionySo16UIViewControllerC_ys6ResultOySo7UIImageCs5Error_pGctF",
+            "moduleName": "ElkycSpecificToolsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Config",
+            "printedName": "Config",
+            "children": [
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Config",
+                    "printedName": "ElkycSpecificToolsSDK.SignaturePad.Config",
+                    "usr": "s:21ElkycSpecificToolsSDK12SignaturePadC6ConfigV"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:21ElkycSpecificToolsSDK12SignaturePadC6ConfigVAEycfc",
+                "mangledName": "$s21ElkycSpecificToolsSDK12SignaturePadC6ConfigVAEycfc",
+                "moduleName": "ElkycSpecificToolsSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:21ElkycSpecificToolsSDK12SignaturePadC6ConfigV",
+            "mangledName": "$s21ElkycSpecificToolsSDK12SignaturePadC6ConfigV",
+            "moduleName": "ElkycSpecificToolsSDK",
+            "isFromExtension": true
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:21ElkycSpecificToolsSDK12SignaturePadC",
+        "mangledName": "$s21ElkycSpecificToolsSDK12SignaturePadC",
+        "moduleName": "ElkycSpecificToolsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ElkycStep",
+            "printedName": "ElkycStep",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Output",
+                "printedName": "Output",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:12ElkycCoreSDK0A4StepP",
+            "mangledName": "$s12ElkycCoreSDK0A4StepP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIImage",
+        "printedName": "UIImage",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "withColor",
+            "printedName": "withColor(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UIImageC21ElkycSpecificToolsSDKE9withColoryABSo7UIColorCF",
+            "mangledName": "$sSo7UIImageC21ElkycSpecificToolsSDKE9withColoryABSo7UIColorCF",
+            "moduleName": "ElkycSpecificToolsSDK",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIImage",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIImage",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByImageLiteral",
+            "printedName": "_ExpressibleByImageLiteral",
+            "usr": "s:s26_ExpressibleByImageLiteralP",
+            "mangledName": "$ss26_ExpressibleByImageLiteralP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Diia\/DiiaIntroViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 551,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/EnvironmentVars.swift",
+      "kind": "StringLiteral",
+      "offset": 246,
+      "length": 11,
+      "value": "\"IsInDebug\""
+    },
+    {
+      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/EnvironmentVars.swift",
+      "kind": "StringLiteral",
+      "offset": 273,
+      "length": 4,
+      "value": "\"NO\""
+    },
+    {
+      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/EnvironmentVars.swift",
+      "kind": "StringLiteral",
+      "offset": 302,
+      "length": 5,
+      "value": "\"YES\""
+    },
+    {
+      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/EnvironmentVars.swift",
+      "kind": "StringLiteral",
+      "offset": 424,
+      "length": 31,
+      "value": "\"https:\/\/dev-billing.elkyc.com\""
+    },
+    {
+      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/EnvironmentVars.swift",
+      "kind": "StringLiteral",
+      "offset": 492,
+      "length": 27,
+      "value": "\"https:\/\/billing.elkyc.com\""
+    },
+    {
+      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/OTPVerification\/OTPVerifyViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 811,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/OTPVerification\/OTPVerifyViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 832,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/OTPVerification\/OTPVerifyViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 968,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/OTPVerification\/OTPVerifyViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1115,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/OTPVerification\/OTPVerifyViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1219,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/DiiaStep.swift",
+      "kind": "StringLiteral",
+      "offset": 1629,
+      "length": 18,
+      "value": "\"diia_intro_title\""
+    },
+    {
+      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/DiiaStep.swift",
+      "kind": "StringLiteral",
+      "offset": 1705,
+      "length": 24,
+      "value": "\"diia_intro_description\""
+    },
+    {
+      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/DiiaStep.swift",
+      "kind": "StringLiteral",
+      "offset": 1787,
+      "length": 32,
+      "value": "\"diia_intro_loading_description\""
+    },
+    {
+      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/DiiaStep.swift",
+      "kind": "StringLiteral",
+      "offset": 1881,
+      "length": 12,
+      "value": "\"diia_intro\""
+    },
+    {
+      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/DiiaStep.swift",
+      "kind": "StringLiteral",
+      "offset": 2208,
+      "length": 21,
+      "value": "\"general_button_next\""
+    },
+    {
+      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/DiiaStep.swift",
+      "kind": "StringLiteral",
+      "offset": 2330,
+      "length": 27,
+      "value": "\"diia_result_title_success\""
+    },
+    {
+      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/DiiaStep.swift",
+      "kind": "StringLiteral",
+      "offset": 2413,
+      "length": 24,
+      "value": "\"diia_result_title_fail\""
+    },
+    {
+      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/DiiaStep.swift",
+      "kind": "StringLiteral",
+      "offset": 2499,
+      "length": 30,
+      "value": "\"diia_result_fail_description\""
+    },
+    {
+      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/DiiaStep.swift",
+      "kind": "StringLiteral",
+      "offset": 2598,
+      "length": 14,
+      "value": "\"diia_success\""
+    },
+    {
+      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/DiiaStep.swift",
+      "kind": "StringLiteral",
+      "offset": 2800,
+      "length": 11,
+      "value": "\"diia_fail\""
+    },
+    {
+      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/DiiaStep.swift",
+      "kind": "StringLiteral",
+      "offset": 3141,
+      "length": 21,
+      "value": "\"general_button_next\""
+    },
+    {
+      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/DiiaStep.swift",
+      "kind": "StringLiteral",
+      "offset": 3225,
+      "length": 20,
+      "value": "\"general_button_end\""
+    },
+    {
+      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/OTPVerification\/OTPModeViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 921,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Selfie\/UIKitSelfieWithConfirm.swift",
+      "kind": "StringLiteral",
+      "offset": 2268,
+      "length": 13,
+      "value": "\"button_next\""
+    },
+    {
+      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Signature\/SignatureView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 776,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Signature\/SignatureView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 815,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Signature\/SignatureView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 902,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Signature\/SignatureView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 943,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Signature\/SignatureView.swift",
+      "kind": "Array",
+      "offset": 982,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/SignaturePad.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2604,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/SignaturePad.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2712,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/SignaturePad.swift",
+      "kind": "StringLiteral",
+      "offset": 2734,
+      "length": 21,
+      "value": "\"signature_pad_title\""
+    },
+    {
+      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/SignaturePad.swift",
+      "kind": "StringLiteral",
+      "offset": 2854,
+      "length": 31,
+      "value": "\"signature_pad_retry_btn_title\""
+    },
+    {
+      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/SignaturePad.swift",
+      "kind": "StringLiteral",
+      "offset": 3054,
+      "length": 34,
+      "value": "\"signature_pad_continue_btn_title\""
+    }
+  ]
+}

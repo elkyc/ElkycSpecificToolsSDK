@@ -6,6 +6,6 @@ framework module ElkycSpecificToolsSDK {
 }
 
 module ElkycSpecificToolsSDK.Swift {
-    header "ElkycSpecificToolsSDK-Swift.h"
-    requires objc
+  header "ElkycSpecificToolsSDK-Swift.h"
+  requires objc
 }
