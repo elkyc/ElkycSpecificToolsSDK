@@ -3596,245 +3596,245 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Diia\/DiiaIntroViewController.swift",
+      "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Diia\/DiiaIntroViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 551,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/EnvironmentVars.swift",
+      "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/EnvironmentVars.swift",
       "kind": "StringLiteral",
       "offset": 246,
       "length": 11,
       "value": "\"IsInDebug\""
     },
     {
-      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/EnvironmentVars.swift",
+      "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/EnvironmentVars.swift",
       "kind": "StringLiteral",
       "offset": 273,
       "length": 4,
       "value": "\"NO\""
     },
     {
-      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/EnvironmentVars.swift",
+      "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/EnvironmentVars.swift",
       "kind": "StringLiteral",
       "offset": 302,
       "length": 5,
       "value": "\"YES\""
     },
     {
-      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/EnvironmentVars.swift",
+      "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/EnvironmentVars.swift",
       "kind": "StringLiteral",
       "offset": 424,
       "length": 31,
       "value": "\"https:\/\/dev-billing.elkyc.com\""
     },
     {
-      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/EnvironmentVars.swift",
+      "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/EnvironmentVars.swift",
       "kind": "StringLiteral",
       "offset": 492,
       "length": 27,
       "value": "\"https:\/\/billing.elkyc.com\""
     },
     {
-      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/OTPVerification\/OTPVerifyViewController.swift",
+      "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/OTPVerification\/OTPVerifyViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 811,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/OTPVerification\/OTPVerifyViewController.swift",
+      "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/OTPVerification\/OTPVerifyViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 832,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/OTPVerification\/OTPVerifyViewController.swift",
+      "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/OTPVerification\/OTPVerifyViewController.swift",
       "kind": "StringLiteral",
       "offset": 968,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/OTPVerification\/OTPVerifyViewController.swift",
+      "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/OTPVerification\/OTPVerifyViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1115,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/OTPVerification\/OTPVerifyViewController.swift",
+      "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/OTPVerification\/OTPVerifyViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1219,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/DiiaStep.swift",
+      "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/DiiaStep.swift",
       "kind": "StringLiteral",
       "offset": 1629,
       "length": 18,
       "value": "\"diia_intro_title\""
     },
     {
-      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/DiiaStep.swift",
+      "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/DiiaStep.swift",
       "kind": "StringLiteral",
       "offset": 1705,
       "length": 24,
       "value": "\"diia_intro_description\""
     },
     {
-      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/DiiaStep.swift",
+      "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/DiiaStep.swift",
       "kind": "StringLiteral",
       "offset": 1787,
       "length": 32,
       "value": "\"diia_intro_loading_description\""
     },
     {
-      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/DiiaStep.swift",
+      "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/DiiaStep.swift",
       "kind": "StringLiteral",
       "offset": 1881,
       "length": 12,
       "value": "\"diia_intro\""
     },
     {
-      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/DiiaStep.swift",
+      "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/DiiaStep.swift",
       "kind": "StringLiteral",
       "offset": 2208,
       "length": 21,
       "value": "\"general_button_next\""
     },
     {
-      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/DiiaStep.swift",
+      "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/DiiaStep.swift",
       "kind": "StringLiteral",
       "offset": 2330,
       "length": 27,
       "value": "\"diia_result_title_success\""
     },
     {
-      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/DiiaStep.swift",
+      "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/DiiaStep.swift",
       "kind": "StringLiteral",
       "offset": 2413,
       "length": 24,
       "value": "\"diia_result_title_fail\""
     },
     {
-      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/DiiaStep.swift",
+      "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/DiiaStep.swift",
       "kind": "StringLiteral",
       "offset": 2499,
       "length": 30,
       "value": "\"diia_result_fail_description\""
     },
     {
-      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/DiiaStep.swift",
+      "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/DiiaStep.swift",
       "kind": "StringLiteral",
       "offset": 2598,
       "length": 14,
       "value": "\"diia_success\""
     },
     {
-      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/DiiaStep.swift",
+      "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/DiiaStep.swift",
       "kind": "StringLiteral",
       "offset": 2800,
       "length": 11,
       "value": "\"diia_fail\""
     },
     {
-      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/DiiaStep.swift",
+      "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/DiiaStep.swift",
       "kind": "StringLiteral",
       "offset": 3141,
       "length": 21,
       "value": "\"general_button_next\""
     },
     {
-      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/DiiaStep.swift",
+      "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/DiiaStep.swift",
       "kind": "StringLiteral",
       "offset": 3225,
       "length": 20,
       "value": "\"general_button_end\""
     },
     {
-      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/OTPVerification\/OTPModeViewController.swift",
+      "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/OTPVerification\/OTPModeViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 921,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Selfie\/UIKitSelfieWithConfirm.swift",
+      "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Selfie\/UIKitSelfieWithConfirm.swift",
       "kind": "StringLiteral",
       "offset": 2268,
       "length": 13,
       "value": "\"button_next\""
     },
     {
-      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Signature\/SignatureView.swift",
+      "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Signature\/SignatureView.swift",
       "kind": "IntegerLiteral",
       "offset": 776,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Signature\/SignatureView.swift",
+      "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Signature\/SignatureView.swift",
       "kind": "BooleanLiteral",
       "offset": 815,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Signature\/SignatureView.swift",
+      "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Signature\/SignatureView.swift",
       "kind": "IntegerLiteral",
       "offset": 902,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Signature\/SignatureView.swift",
+      "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Signature\/SignatureView.swift",
       "kind": "IntegerLiteral",
       "offset": 943,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Signature\/SignatureView.swift",
+      "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Signature\/SignatureView.swift",
       "kind": "Array",
       "offset": 982,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/SignaturePad.swift",
+      "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/SignaturePad.swift",
       "kind": "IntegerLiteral",
       "offset": 2604,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/SignaturePad.swift",
+      "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/SignaturePad.swift",
       "kind": "IntegerLiteral",
       "offset": 2712,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/SignaturePad.swift",
+      "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/SignaturePad.swift",
       "kind": "StringLiteral",
       "offset": 2734,
       "length": 21,
       "value": "\"signature_pad_title\""
     },
     {
-      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/SignaturePad.swift",
+      "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/SignaturePad.swift",
       "kind": "StringLiteral",
       "offset": 2854,
       "length": 31,
       "value": "\"signature_pad_retry_btn_title\""
     },
     {
-      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/SignaturePad.swift",
+      "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/Steps\/SignaturePad.swift",
       "kind": "StringLiteral",
       "offset": 3054,
       "length": 34,
