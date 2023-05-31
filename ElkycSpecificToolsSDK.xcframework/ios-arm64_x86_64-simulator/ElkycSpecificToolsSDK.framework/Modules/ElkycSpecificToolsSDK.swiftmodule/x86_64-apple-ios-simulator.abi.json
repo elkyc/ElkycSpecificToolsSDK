@@ -3604,36 +3604,43 @@
     },
     {
       "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/EnvironmentVars.swift",
+      "kind": "BooleanLiteral",
+      "offset": 213,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/EnvironmentVars.swift",
       "kind": "StringLiteral",
-      "offset": 246,
+      "offset": 267,
       "length": 11,
       "value": "\"IsInDebug\""
     },
     {
       "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/EnvironmentVars.swift",
       "kind": "StringLiteral",
-      "offset": 273,
+      "offset": 294,
       "length": 4,
       "value": "\"NO\""
     },
     {
       "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/EnvironmentVars.swift",
       "kind": "StringLiteral",
-      "offset": 302,
+      "offset": 323,
       "length": 5,
       "value": "\"YES\""
     },
     {
       "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/EnvironmentVars.swift",
       "kind": "StringLiteral",
-      "offset": 424,
+      "offset": 445,
       "length": 31,
       "value": "\"https:\/\/dev-billing.elkyc.com\""
     },
     {
       "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycSpecificToolsSDK\/EnvironmentVars.swift",
       "kind": "StringLiteral",
-      "offset": 492,
+      "offset": 513,
       "length": 27,
       "value": "\"https:\/\/billing.elkyc.com\""
     },
